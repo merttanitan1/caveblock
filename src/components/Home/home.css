@@ -1,0 +1,26 @@
+.mainText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font: 32px "Chakra Petch";
+    margin-top: 307px;
+}
+.box{
+    width: 312px;
+    height: 317px;
+    top: 689px;
+    left: 173px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+    border: 1px solid rgba(190, 194, 218, 0.1);
+    background-color: rgba(32, 30, 41, 0.1);
+}
+.box .wallet-logo{
+    width: 101px;
+    height: 101px;
+    position: absolute;
+    top: 727px;
+}

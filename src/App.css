@@ -4,25 +4,28 @@ body {
   background-color: var(--color-bg);
 }
 
-.App-logo{
-  position: relative;
+.App-header{
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  font-family: "Chakra Petch";
+}
+
+.nav-link{
+  justify-content: space-between;
+  padding: 0 50px;
+  align-items: center;
+  color: white;
+  text-decoration: none;
 }
 
 .nav-container{
   display: flex;
-  justify-content: center;
-}
-
-.nav-link{
-  margin: 1 50px;
-}
-
-.App-header{
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
-  height: 80px;
+  justify-self: center;
+  width: 100%;
+  padding: 0 450px;
 }
 .wallet{
   background-color: #1A1A1A;
@@ -34,7 +37,7 @@ body {
   position: absolute;
   border-radius: 5px;
   border: none;
-  font-family: Chakra Petch;
+  font-family: "Chakra Petch";
   font-weight: 600;
   top: 25px;
   right: 20px

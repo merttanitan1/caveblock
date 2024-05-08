@@ -34,10 +34,11 @@ function App() {
           <a href="#about" className='nav-link'>About</a>
           <a href="#features" className='nav-link'>Features</a>
         </div>
-      </header>
-      <button className='wallet' onClick={connectWallet}>
+        <button className='wallet' onClick={connectWallet}>
         {account ? `Connected: ${shortenAddress(account)}` : 'Connect Wallet'}
-      </button>
+        </button>
+      </header>
+      <Home />
     </div>
   );
 }
