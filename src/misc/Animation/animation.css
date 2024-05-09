@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.logo-animation img{
+    position: relative;
+    bottom: 0;
+    animation: animate 15s linear infinite;
+    opacity: 0.6;
+    animation-duration: calc(500s / var(--i));
+}
+
+.logo-animation img:nth-child(even){
+    opacity: 0.3;
+}
+
+@keyframes animate {
+    0%{
+        transform: translateY(100vh) scale(0);
+    }
+    100%{
+        transform: translateY(-100vh) scale(1);
+    }
+}

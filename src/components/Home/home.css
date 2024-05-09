@@ -2,25 +2,73 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     color: white;
     font: 32px "Chakra Petch";
-    margin-top: 307px;
+    height: 50vh;
+    justify-content: center;
 }
+
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px 10px;
+    flex-wrap: wrap;
+}
+
 .box{
-    width: 312px;
-    height: 317px;
-    top: 689px;
-    left: 173px;
-    gap: 0px;
+    width: 400px;
+    height: auto;
+    aspect-ratio: 1;
     border-radius: 8px;
-    opacity: 0px;
     border: 1px solid rgba(190, 194, 218, 0.1);
     background-color: rgba(32, 30, 41, 0.1);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
 }
+
 .box .wallet-logo{
-    width: 101px;
-    height: 101px;
-    position: absolute;
-    top: 727px;
+    width: auto;
+    max-width: 150px;
 }
+
+.box .text{
+    padding: 30px;
+    color: white;
+    font: 24px "Chakra Petch";
+    text-align: center;
+}
+
+.wallet-home{
+    background-color: #1A1A1A;
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 5px;
+    border: none;
+    font-family: "Chakra Petch";
+    font-weight: 600;
+    top: 40%;
+    left: 41%;
+}
+
+.learn-more{
+    background-color: white;
+    color: black;
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 5px;
+    border: none;
+    font-family: "Chakra Petch";
+    font-weight: 600;
+    top: 40%;
+    right: 41%;
+  }
