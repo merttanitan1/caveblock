@@ -50,6 +50,13 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <hr />
+      <div className="bottom-text">
+        With CaveBlock, you can do all basic features in one app. You can Buy & Sell your Special <br />CaveBlock NFTs, Deposit & Withdraw your CaveBlock Token(CBT), and you can even <br />transfer CBT token with different Addresses.
+      </div>
+      <div className="coming-soon">
+        Features like NFT Transfer will be add soon.
+      </div>
     </div>
   )
 }

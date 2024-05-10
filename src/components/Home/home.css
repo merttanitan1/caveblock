@@ -71,4 +71,36 @@
     font-weight: 600;
     top: 40%;
     right: 41%;
-  }
+}
+
+hr{
+    width: 90%;
+    margin-top: 101px;
+}
+
+.bottom-text{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font: 32px "Chakra Petch";
+    font-style: italic;
+    text-align: center;
+    height: 400px;
+}
+.bottom-text br{
+    margin-top: 10px;
+}
+
+.coming-soon{
+    display: flex;
+    color: white;
+    font: 16px "Chakra Petch";
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    margin-top: -100px;
+}

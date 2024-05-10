@@ -31,9 +31,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <div className='nav-container'>
-          <a href="#home" className='nav-link'>Home</a>
-          <a href="#about" className='nav-link'>About</a>
-          <a href="#features" className='nav-link'>Features</a>
+          <a href="home" className='nav-link'>Home</a>
+          <a href="about" className='nav-link'>About</a>
+          <a href="features" className='nav-link'>Features</a>
         </div>
         <button className='wallet' onClick={connectWallet}>
         {account ? `Connected: ${shortenAddress(account)}` : 'Connect Wallet'}
