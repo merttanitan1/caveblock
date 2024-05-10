@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
-import { Home } from './components/';
+import { Home, Features } from './components/';
 import { Animation } from './misc/';
 const { ethers } = require("ethers");
 
